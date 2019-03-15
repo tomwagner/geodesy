@@ -167,7 +167,7 @@ Vector3d.prototype.unit = function() {
 
 
 /**
- * Calculates the angle between ‘this’ vector and supplied vector.
+ * Calculates the angle between ‘this’ vector and supplied vector δ = atan2(|p₁×p₂|, p₁·p₂).
  *
  * @param   {Vector3d} v
  * @param   {Vector3d} [n] - Plane normal: if supplied, angle is -π..+π, signed +ve if this->v is
